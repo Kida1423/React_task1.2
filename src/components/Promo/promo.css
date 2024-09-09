@@ -1,0 +1,85 @@
+.promo{
+    margin-bottom: 63px;
+}
+.promo__content{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 59px;
+    background-color: #f4f6F5;
+    display: flex;
+    column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+}
+
+.promo__text{
+
+}
+
+.promo__title{
+    font-weight: 900;
+    font-size: 85px;
+    width: 474px;
+    line-height: 1.25;
+}
+
+.promo__desc{ 
+    width: 606px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin: 20px 0;
+     
+}
+.promo__btn-wrapper{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+.promo__btn-wrapper::before{
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url(./../../img/icons/decr-yellow.svg);
+}
+
+.promo__btn{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 18px 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+ 
+.highlight{
+    position: relative;
+    display: inline-block;
+}
+
+.highlight::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    bottom: 0 ;
+    left: -40px;
+    right: -160px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+
+.highlight span{
+    position: relative;
+
+}
+
+.highlight--yellow::before{
+    background-color:rgba(235, 217, 107, 1);
+    right: -110px;
+}

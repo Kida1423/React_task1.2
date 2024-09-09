@@ -1,0 +1,19 @@
+.arrivals{
+    padding-top: 120px;
+    font-family: sans-serif;
+}
+
+.arrivals__header{
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+
+.arrivals__cards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.arrivals__cards img{
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.banner__content{
+    font-family: sans-serif;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.banner__text, .banner__img{
+    width: 50%;
+}
+
+.banner .container{
+    background-color: #ffe759;
+}
+
+.banner__text{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0px 70px;
+}
+.promo__desc span{
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+}
+.banner_title{
+    width: 100%;
+}
+.banner_desc {
+    font-size: 24px;
+    line-height: 1.4;
+    width: 70%;
+    padding-bottom: 20px;
+}
+.banner_desc p{
+    padding: 10px 0;
+}
